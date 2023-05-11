@@ -30,3 +30,6 @@ Dropout and the Deep Ensemble. This result confirms the importance of capturing
 multi-modal posterior to accurately estimate epistemic uncertainty in OOD tasks.
 Keywords: Medical Image Segmentation, Uncertainty Estimation, Bayesian Deep
 Learning Models, Distributional Shift.
+
+Keywords: Medical Image Segmentation, Uncertainty Estimation, Bayesian Deep
+Learning Models, Distributional Shift.
