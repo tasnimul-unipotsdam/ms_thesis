@@ -80,9 +80,8 @@ the reliable presentation of the predictive uncertainty.
 
 
  # Dependencies
-* [Python 2.7](https://www.python.org/)
-* [PyTorch 1.2.0](http://pytorch.org/) 
-* [torchvision 0.4.0](https://github.com/pytorch/vision/)
+* [Python 3.8](https://www.python.org/)
+* [PyTorch 1.9.0](http://pytorch.org/) 
 
 
 
