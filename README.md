@@ -49,6 +49,10 @@ modal posterior distribution from the complex parameter space of the modern arti
 neural network. 
 
 
+<p align="center">
+  <img src="figure/plot_mcmc_modes.jpg" width="500">
+</p>
+
 
 
  # Dependencies
