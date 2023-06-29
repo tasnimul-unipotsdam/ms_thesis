@@ -37,6 +37,25 @@ Keywords: Medical Image Segmentation, Uncertainty Estimation, Bayesian Deep
 Learning Models, Distributional Shift.
 
 # Uncertainty Estimation
+<p align="center">
+  <img src="figure/uncertain.PNG" width="700">
+</p>
+
+This [Figure](https://arxiv.org/abs/1703.04977) visualizes the aleatoric and epistemic uncertainty of a semantic segmentation dataset. Figure (d) visualizes the aleatoric uncertainty on the boundaries of the
+objects and for the distant object. and Figure (e) describes the epistemic uncertainty that the trained model fails to predict the challenging parts of the images.
+As we are studying the uncertainty quantification under the distribution shift, this can be classified as epistemic uncertainty.
+
+To study the quality of uncertainty estimation we used the Probability Density
+Functions (PDF) and  Cumulative Distribution Function (CDF) of the
+predictive entropy. We can
+say a model is estimating reliable uncertainties based on the histogram visualization of
+the entropy if the mode of the histogram concentrates on high values for incorrect pre-
+dictions. and the  CDF of the entropy assigns high uncertainties to the OOD samples.
+
+|  PDF  |   CDF 
+|:-------------------------:|:-------------------------:
+| <img src="figure/plot_pdf_rot30.jpg" width=500>  |   <img src="figure/plot_cdf_rotation.jpg" width=500>
+
 
 
 # Cyclical Stochastic Gradient MCMC
