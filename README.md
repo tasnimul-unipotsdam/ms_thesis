@@ -43,7 +43,10 @@ This method is a combination of the Cyclical learning rate scheduler and the tra
   <img src="figure/lr-exp.png" width="500">
 </p>
 
- 
+ # Dependencies
+* [Python 2.7](https://www.python.org/)
+* [PyTorch 1.2.0](http://pytorch.org/) 
+* [torchvision 0.4.0](https://github.com/pytorch/vision/)
 
 
 
