@@ -52,7 +52,7 @@ explores a wide range of parameter space and the chance to capture different mod
 the posterior distribution is higher. This property of the cSG-MCMC model can lead to
 the reliable presentation of the predictive uncertainty.
 <p align="center">
-  <img src="figure/plot_mcmc_modes.jpg" width="500">
+  <img src="figure/plot_mcmc_modes.jpg" width="700">
 </p>
 
 
