@@ -37,11 +37,19 @@ Keywords: Medical Image Segmentation, Uncertainty Estimation, Bayesian Deep
 Learning Models, Distributional Shift.
 
 # Cyclical Stochastic Gradient MCMC
-The implementation of the Cyclical Stochastic Gradient MCMC (cSG-MCMC) method is proposed in this paper [Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning](https://arxiv.org/abs/1902.03932).
+The cSG-MCMC model provided well-calibrated uncertainty estimation for all of the OOD
+datasets. The implementation of the Cyclical Stochastic Gradient MCMC (cSG-MCMC) method is proposed in this paper [Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning](https://arxiv.org/abs/1902.03932).
 This method is a combination of the Cyclical learning rate scheduler and the traditional SG-MCMC-based method. The main advantage of this method over the other MCMC method is that with the large initial learning rate, it can escape the local mode and explore the parameter space efficiently. It starts with a large initial learning rate which helps to escape the local mode and explore the parameter space efficiently. When the learning rate is close to zero, the samples can be collected.
 <p align="center">
   <img src="figure/lr-exp.png" width="500">
 </p>
+
+In addition, cSG-MCMC can explore, capture, and characterize the multi-
+modal posterior distribution from the complex parameter space of the modern artificial
+neural network. 
+
+
+
 
  # Dependencies
 * [Python 2.7](https://www.python.org/)
