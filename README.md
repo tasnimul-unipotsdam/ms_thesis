@@ -1,5 +1,7 @@
 # Benchmarking Bayesian deep learning models for Uncertainty quantification under the distributional shift of 3D medical images in segmentation tasks
 
+This repository contains code that are used in my thesis.
+
 ## ABSTRACT
 In recent years machine learning approaches have been used widely in different sectors
 from spam detection to chatGPT. But computer-assisted image-based disease detection
