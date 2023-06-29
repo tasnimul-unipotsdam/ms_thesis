@@ -33,3 +33,7 @@ Learning Models, Distributional Shift.
 
 Keywords: Medical Image Segmentation, Uncertainty Estimation, Bayesian Deep
 Learning Models, Distributional Shift.
+
+# Cyclical Stochastic Gradient MCMC
+The implementation of the Cyclical Stochastic Gradient MCMC (cSG-MCMC) method is proposed in this paper  
+[Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning](https://arxiv.org/abs/1902.03932).
