@@ -54,7 +54,7 @@ dictions. and the  CDF of the entropy assigns high uncertainties to the OOD samp
 
 |  PDF  |   CDF 
 |:-------------------------:|:-------------------------:
-| <img src="figure/plot_pdf_rot30.jpg" width=500>  |   <img src="figure/plot_cdf_rotation.jpg" width=500>
+| <img src="figure/plot_pdf_rot30.jpg" width=500, height=200>  |   <img src="figure/plot_cdf_rotation.jpg" width=500, height=200>
 
 
 
