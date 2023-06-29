@@ -45,8 +45,8 @@ This [Figure](https://arxiv.org/abs/1703.04977) visualizes the aleatoric and epi
 objects and for the distant object. and Figure (e) describes the epistemic uncertainty that the trained model fails to predict the challenging parts of the images.
 As we are studying the uncertainty quantification under the distribution shift, this can be classified as epistemic uncertainty.
 
-To study the quality of uncertainty estimation we used the Probability Density
-Functions (PDF) and  Cumulative Distribution Function (CDF) of the
+To study the quality of uncertainty estimation we used the **Probability Density
+Functions (PDF)** and  **Cumulative Distribution Function (CDF)** of the
 predictive entropy. We can
 say a model is estimating reliable uncertainties based on the histogram visualization of
 the entropy if the mode of the histogram concentrates on high values for incorrect pre-
