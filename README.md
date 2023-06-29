@@ -46,9 +46,11 @@ This method is a combination of the Cyclical learning rate scheduler and the tra
 
 In addition, cSG-MCMC can explore, capture, and characterize the multi-
 modal posterior distribution from the complex parameter space of the modern artificial
-neural network. 
-
-
+neural network. This figure  visualizes the parameter samples using the cSG-MCMC
+method via Multi-Dimensional Scaling (MDS). It shows us that the cSG-MCMC method
+explores a wide range of parameter space and the chance to capture different modes of
+the posterior distribution is higher. This property of the cSG-MCMC model can lead to
+the reliable presentation of the predictive uncertainty.
 <p align="center">
   <img src="figure/plot_mcmc_modes.jpg" width="500">
 </p>
